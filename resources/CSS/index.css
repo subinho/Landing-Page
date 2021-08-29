@@ -1,0 +1,182 @@
+.logo img {
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    padding: 7px 100px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.nav-link, a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+#product, .video-iframe {
+    max-width: 550px;
+    margin: 100px auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#product {
+    margin: 50px auto;
+    text-align: center;
+    padding-top: 140px;
+}
+
+#image {
+    width: 381px;
+    height: 492px;
+}
+
+.container {
+   max-width: 550px;
+   margin: 123px auto 40px auto;
+   text-align: center;
+   justify-content: center;
+   box-shadow: 0px 0px 20px 20px #1b9bff;
+}
+
+.description {
+    width: 469px;
+    margin-left: 35px;
+    display: flex;
+}
+
+.buy {
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:linear-gradient(to bottom, #1b9bff 5%, #019ad2 100%);
+    background-color:#1b9bff;
+    border-radius:6px;
+    border:1px solid #0082e6;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #5b6178;   
+    margin-top: 70px;
+    margin-bottom: 25px;
+    }
+    
+.buy:hover {
+     background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color:#019ad2;
+     }
+.buy:active {
+     position:relative;
+     top:1px;
+    }
+
+
+#email {
+    margin-top: 20px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#email {
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    width: 540px;
+    
+}
+
+#contanct {
+    text-align: center;
+    padding-bottom:  4rem;
+}
+
+#contact-information {
+    font-size: 21px;
+}
+
+#submit {
+    height: 2.375rem;
+    width: 540px;
+    margin-top: 25px;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:linear-gradient(to bottom, #1b9bff 5%, #019ad2 100%);
+    background-color:#1b9bff;
+    border-radius:6px;
+    border:1px solid #0082e6;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #5b6178;   
+}
+
+#submit:hover {
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+   background-color:#019ad2;
+    }
+#submit:active {
+    position:relative;
+    top:1px;
+   }
+
+footer {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        position: absolute;
+    }
+
+    #header-img {
+        margin-right: 80px;
+        width: 275px;
+        height: 50px;
+        margin-top: 15px;
+    }
+}
